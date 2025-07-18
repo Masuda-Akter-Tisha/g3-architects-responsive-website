@@ -9,6 +9,7 @@
   margin:0px;
   padding:0px;
 }
+/* header styles */
 .header{
     background-color: rgba(255, 144, 14, 0.1);
     margin-bottom:100px;
@@ -74,4 +75,9 @@
 .banner-img{
     margin-bottom:50px;
     width: 100%;
+}
+@media screen and (max-width:576px) {
+   .nav-bar,.nav-links{
+    flex-direction: column;
+   } 
 }
