@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    width: 75%;
+    width:75%;
     margin:0px auto;
     margin-bottom:100px;
 }
@@ -45,6 +45,7 @@
 .banner{
     width:75%;
     margin:0px auto;
+    text-align: center;
 }
 .banner-content{
     width:60%;
@@ -73,11 +74,17 @@
     color: #FFFFFF;
 }
 .banner-img{
-    margin-bottom:50px;
+    margin-bottom: 50px;
     width: 100%;
 }
 @media screen and (max-width:576px) {
    .nav-bar,.nav-links{
     flex-direction: column;
    } 
+   .nav-bar .brand{
+    font-size:2rem;
+   }
+   .banner-title{
+    font-size:2rem;
+   }
 }
