@@ -9,3 +9,69 @@
   margin:0px;
   padding:0px;
 }
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin-bottom:100px;
+}
+/* navbar styles */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 75%;
+    margin:0px auto;
+    margin-bottom:100px;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+.nav-bar .brand{
+    font-size:2.9rem;
+    font-weight:bold;
+    color: #131313;
+}
+.nav-links .nav-link{
+    font-size:1.2rem;
+    font-weight:Medium;
+    color: #424242;
+    text-decoration: none;
+}
+.nav-links .nav-item{
+    list-style:none;
+}
+/* banner styles */
+.banner{
+    width:75%;
+    margin:0px auto;
+}
+.banner-content{
+    width:60%;
+    margin:0px auto;
+    text-align: center;
+    margin-bottom:50px;
+}
+.banner-title{
+    font-size:4rem;
+    font-weight: bold;
+    color: #131313;
+}
+.banner-description{
+    font-size:1rem;
+    font-weight:regular;
+    color:#727272;
+    margin-bottom:30px;
+}
+.banner-button{
+    border: none;
+    border-radius:8px;
+    padding:20px 25px;
+    background-color:#FF900E;
+    font-size:1.3rem;
+    font-weight:SemiBold;
+    color: #FFFFFF;
+}
+.banner-img{
+    margin-bottom:50px;
+    width: 100%;
+}
