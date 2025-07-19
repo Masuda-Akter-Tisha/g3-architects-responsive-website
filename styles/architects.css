@@ -131,6 +131,64 @@
     font-weight:SemiBold;
     color: #FFFFFF;
 }
+/* features style */
+.feature-section{
+    display:flex;
+    gap: 140px;
+}
+.featur-cntn{
+    margin-bottom:25px;
+}
+.cntn-title{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: #131313;
+    border-left:5px solid #FF900E;
+    padding-left:21px;
+}
+.cntn-des{
+    font-size:1rem;
+    font-weight: regular;
+    color: #727272;
+}
+.feature-card{
+    border:none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow:0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding:30px;
+    margin-bottom:20px;
+}
+.card-name{
+    font-size:20px;
+    font-weight: SemiBold;
+    color: #131313;
+}
+.card-des{
+     font-size:1rem;
+    font-weight: regular;
+    color: #727272;
+}
+.feature-img-button{
+     border: none;
+    border-radius:8px;
+    padding:45px 40px;
+    background-color:#FF900E;
+    color: #FFFFFF;
+    margin-left:-100px;
+    margin-top:-100px;
+}
+.exp-years{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.exp{
+    font-size:1.5rem;
+    font-weight: Medium;
+}
+.feature-img-part img{
+    width:100%;
+   }
 /* some facts section styles */
 .some-facts{
     margin-bottom:100px;
@@ -220,9 +278,12 @@
 }
 /* responsive styles */
 @media screen and (max-width:576px) {
-   .nav-bar,.nav-links,.teams{
+   .nav-bar,.nav-links,.teams,.feature-section{
     flex-direction: column;
    } 
+   .feature-section{
+    gap: 50px;
+   }
    .nav-bar .brand{
     font-size:2rem;
    }
@@ -244,7 +305,21 @@
    .all-rights-des{
     font-size:1rem;
    }
+   .feature-img-button{
+    margin-left:20px;
+    margin-top:20px;
+     padding:30px 50px;
+   }
+   .exp-years{
+    font-size:2rem;
 }
+ .exp{
+    font-size:1rem;
+ }
+ .cntn-title{
+    font-size:2rem;
+ }
+ }
 @media screen and (min-width:577px) and (max-width:992px){
     .nav-bar .brand{
     font-size:2rem;
@@ -252,7 +327,7 @@
    .banner-title{
     font-size:2rem;
    }
-   .teams{
+   .teams,.feature-section{
     flex-direction: column;
    }
    .features-container{
@@ -270,6 +345,10 @@
    .sponsors-app-container{
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
+   }
+    .feature-img-button{
+    margin-left:150px;
+    margin-top:20px;
    }
 }
 
