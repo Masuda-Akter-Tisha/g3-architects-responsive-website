@@ -319,6 +319,11 @@
  .cntn-title{
     font-size:2rem;
  }
+ .all-rights-des{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
  }
 @media screen and (min-width:577px) and (max-width:992px){
     .nav-bar .brand{
